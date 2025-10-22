@@ -6,6 +6,7 @@ if (DONT_TOUCH == 'eee123eee') {
     localStorage.setItem('accessStatusGranted', true)
 } 
 
-if (accessStatus == true) {
+if (accessStatus == 'true') {
     window.location.href = "eee.html";
 }
+
