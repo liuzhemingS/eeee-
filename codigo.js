@@ -38,23 +38,13 @@ function render() {
         parts.push(`${a} ^ ${v}`);
         }
     }
-    res.textContent = `buoeqb:  ${parts.join(' x ')}`
+    res.textContent = `resultado:  ${parts.join(' x ')}`
     parts =[];
 }
 function eeee() {
     countNum();
     valueNum();
     render();
-    console.log(counts);
-    console.log(Object.keys(counts));
-    console.log(Object.values(counts));
-    console.log(`why my codes suckscaiebvJHAD B`)
-    console.log(Object.values(counts).length);
-    console.log(Anum);
-    console.log(Object.entries(counts));
-    console.log(Vnum);
-    console.log(`el resultado es: ${Anum[0]} ^ ${Vnum[0]}`);
-    console.log(abc)
 }
 
 subB.addEventListener('click', () =>{
