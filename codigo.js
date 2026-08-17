@@ -73,6 +73,4 @@ palomaInput.addEventListener('keydown', (e) => {
     }
 });
 
-if (accessStatus != 'true') {
-    window.location.href = "index.html"
-}
+
